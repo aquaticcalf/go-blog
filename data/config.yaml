@@ -1,5 +1,5 @@
 title: go-blog
-favicon: https://blog-mini-project.netlify.app/pen.png
+favicon: /pen.png
 theme: black
-baseurl: "http://localhost:8080"
+baseurl: http://localhost:8080
 mode: dev

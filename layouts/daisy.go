@@ -3,6 +3,7 @@ package layouts
 import (
 	. "aqclf.xyz/tago"
 	"github.com/blog-mini-project/go/config"
+	"github.com/blog-mini-project/go/components"
 )
 
 func DaisyPage(children *Element) *Element {
@@ -22,6 +23,7 @@ func DaisyPage(children *Element) *Element {
 			),
 		),
 		Body(
+			components.Nav(),
 			children,
 		),
 	)

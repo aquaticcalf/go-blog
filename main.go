@@ -14,4 +14,6 @@ func main() {
 	} else {
 		web.Build()
 	}
+
+	movePublicToBuild()
 }
